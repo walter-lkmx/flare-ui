@@ -1,24 +1,15 @@
-# flare-ui-next
+# Flare UI
+
+Set of beautiful, Flare compliant components, that will make you enjoy life.
 
 ## Project setup
-```
+
+```sh
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Run Storybook
 
-### Compiles and minifies for production
+```sh
+yarn storybook
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
