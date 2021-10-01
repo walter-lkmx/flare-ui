@@ -1,14 +1,35 @@
 :root {
-  --flui-color-blue: blue;
-  --flui-color-black: black;
-  --flui-color-yellow: yellow;
-  --flui-color-red: red;
-  --flui-color-green: green;
-  --flui-color-white: white;
+  --flui-color-grey-01: #122740;
+  --flui-color-grey-02: #5e7187;
+  --flui-color-grey-03: #98a7b9;
+  --flui-color-grey-04: #e7edf3;
+  --flui-color-grey-05: #f4f7fa;
+
+  --flui-color-white: #ffffff;
+  --flui-color-black: #000000;
+
+  --flui-color-blue-01: #255dbc;
+  --flui-color-blue-02: #3370d7;
+  --flui-color-blue-03: #6593e1;
+  --flui-color-blue-04: #90b1e9;
+  --flui-color-blue-05: #c3d5f3;
+
+  --flui-color-red-01: #ab2121;
+  --flui-color-red-02: #d73333;
+  --flui-color-red-03: #e47777;
+  --flui-color-red-04: #f2bbbb;
+  --flui-color-red-05: #fae5e5;
+
+  --flui-color-green-01: #2d782c;
+  --flui-color-green-02: #51bf4f;
+  --flui-color-green-03: #7ace78;
+  --flui-color-green-04: #c4e9c3;
+  --flui-color-green-05: #e9f7e9;
+
+  --flui-color-yellow-01: #b89500;
+  --flui-color-yellow-02: #e0b700;
+  --flui-color-yellow-03: #ffda33;
+  --flui-color-yellow-04: #ffec99;
+  --flui-color-yellow-05: #fff6cc;
 }
 
-body {
-  img {
-    background: red;
-  }
-}

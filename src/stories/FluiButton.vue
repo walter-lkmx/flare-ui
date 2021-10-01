@@ -1,5 +1,5 @@
 <template>
-  <button class="fl-button" :class="classes" @click="onClick">
+  <button class="flui-button" :class="classes" @click="onClick">
     {{ label }}
   </button>
 </template>
@@ -7,7 +7,7 @@
 <script>
 import { reactive } from 'vue';
 export default {
- name: 'fl-button',
+ name: 'flui-button',
 
  props: {
    label: {
@@ -22,7 +22,7 @@ export default {
  computed: {
     classes() {
       return {
-        "fl-button__mode--full": this.fullMode,
+        "flui-button__mode--full": this.fullMode,
       };
     },
   },
@@ -36,11 +36,11 @@ export default {
 
 <style lang="scss">
 :root {
-  --flui-button-bg-color: var(--flui-color-blue);
+  --flui-button-bg-color: var(--flui-color-blue-02);
   --flui-button-bg-hover-color: var(--flui-color-black);
   --flui-button-text-color: var(--flui-color-white);
 }
-.fl-button {
+.flui-button {
   background: var(--flui-button-bg-color);
   border: 1px solid var(--flui-button-bg-color);
   padding: var(--f-gutter-s) var(--f-gutter);
