@@ -8,4 +8,21 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  backgrounds: {
+    default: 'figma',
+    values: [
+      {
+        name: 'Light',
+        value: '#F5F5F5',
+      },
+      {
+        name: 'Dark',
+        value: '#1F1F1F',
+      },
+      {
+        name: 'Figma',
+        value: '#DADADA',
+      },
+    ],
+  },
 }
