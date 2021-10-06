@@ -19,7 +19,7 @@ const Template = (args, { argTypes }) => ({
 
 export const Normal = Template.bind({});
 Normal.args = {
-  label: 'Button',
+  label: 'Buttonn',
   fullMode: false,
 };
 Normal.parameters = {
