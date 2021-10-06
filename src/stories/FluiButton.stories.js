@@ -19,12 +19,12 @@ const Template = (args, { argTypes }) => ({
 
 export const Normal = Template.bind({});
 Normal.args = {
-  label: 'Buttonn',
+  label: 'Button',
   fullMode: false,
 };
 Normal.parameters = {
   design: {
     type: 'figma',
-    url: 'https://www.figma.com/file/Zv5cp2PFUMFR3G3fp6qb15/Flare-Igniter-%F0%9F%A7%AC?node-id=1114%3A2612',
+    url: 'https://www.figma.com/file/Zv5cp2PFUMFR3G3fp6qb15/Flare-Igniter-🧬?node-id=43%3A1470',
   },
 }

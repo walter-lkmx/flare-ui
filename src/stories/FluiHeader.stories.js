@@ -1,8 +1,10 @@
 import FluiHeader from './FluiHeader';
+import { withDesign } from 'storybook-addon-designs'
 
 export default {
   title: 'FlareUi/Header',
   component: FluiHeader,
+  decorators: [withDesign],
   parameters: {
     layout: 'fullscreen',
   },
@@ -71,3 +73,9 @@ Normal.args = {
     },
   ],
 };
+Normal.parameters = {
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/Zv5cp2PFUMFR3G3fp6qb15/Flare-Igniter-🧬?node-id=418%3A171',
+  },
+}
