@@ -42,8 +42,9 @@ export default {
 
 <style lang="scss">
 :root {
-  --flui-alert-bar-background: var(--flui-color-grey-01);
-  --flui-alert-bar-text-color: var(--flui-color-grey-05);
+  --flui-alert-bar-background: var(--flui-color-yellow-05);
+  --flui-alert-bar-text-color: var(--flui-color-yellow-01);
+  --flui-alert-bar-text-align: left;
 }
 .flui-alert-bar {
   background: var(--flui-alert-bar-background);
@@ -51,7 +52,7 @@ export default {
   display: grid;
   align-content: center;
   align-items: center;
-  text-align: center;
+  text-align: var(--flui-alert-bar-text-align);
   grid-template-columns: 1fr 16px;
   * {
     margin: 0;
@@ -63,7 +64,7 @@ export default {
     display: grid;
     align-content: center;
     align-items: center;
-    text-align: center;
+    text-align: var(--flui-alert-bar-text-align);
     padding: 0;
     cursor: pointer;
     background: transparent;

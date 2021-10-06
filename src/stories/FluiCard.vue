@@ -31,7 +31,7 @@ export default {
 }
 .flui-card {
   display: grid;
-  gap: var(--f-gutter-s);
+  gap: var(--f-gutter);
   padding: var(--f-gutter);
   background: var(--flui-card-background);
   * {

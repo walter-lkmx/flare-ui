@@ -109,7 +109,7 @@ export default {
 @import '@lkmx/flare/src/functions/_respond-to.scss';
 
 :root {
-  --flui-header-background-color: var(--flui-color-black);
+  --flui-header-background-color: var(--flui-color-blue-02);
   --flui-header-height: 100%;
   --flui-header-text-color: var(--f-header-text-color);
   --flui-header-logo-width: 100px;

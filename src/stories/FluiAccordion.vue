@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss">
 :root {
-  --flui-accordion-background: var(--flui-color-grey-05);
+  --flui-accordion-background: var(--flui-color-white);
   --flui-accordion-title-padding: var(--f-gutter);
   --flui-accordion-details-padding: var(--f-gutter);
 }
@@ -83,7 +83,6 @@ export default {
   }
   &__details {
     padding: var(--flui-accordion-details-padding);
-    padding-top: 0;
   }
 }
 </style>
