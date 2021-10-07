@@ -9,7 +9,7 @@ export const parameters = {
     },
   },
   backgrounds: {
-    default: 'figma',
+    default: 'Figma',
     values: [
       {
         name: 'Light',
