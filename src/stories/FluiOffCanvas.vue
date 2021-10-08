@@ -24,7 +24,7 @@
       </div>
       <div class="flui-off-canvas__container__content">
         <slot></slot>
-        <flui-button label="Confirm" :fullMode="false" data-off-canvas-name="demo"/>
+        <flui-button label="Confirm" :fullMode="true" data-off-canvas-name="demo"/>
       </div>
     </div>
     <div class="flui-off-canvas__container__controls"></div>
@@ -146,7 +146,6 @@ export default {
       padding-top: 0;
     }
     .flui-button {
-      width: 100%;
       margin-top: var(--f-gutter);
     }
   }
