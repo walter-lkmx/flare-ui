@@ -18,7 +18,7 @@ const Template = (args, { argTypes }) => ({
   `<div style="padding: 16px;">
     <flui-button label="Open Off Canvas" :fullMode="false" data-off-canvas-name="demo"/>
     <flui-off-canvas v-bind="$props">
-      <p>This is the content of the Off Canvas</p>
+      <p>Flare is a design system for agile front-end software engineering. 🚀</p>
     </flui-off-canvas>
   </div>`,
 });
