@@ -1,6 +1,7 @@
 <template>
   <button class="flui-button" :class="classes" @click="onClick">
     {{ label }}
+    <slot></slot>
   </button>
 </template>
 
